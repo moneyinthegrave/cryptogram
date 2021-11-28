@@ -43,7 +43,7 @@ fn code () {
         indexx+=1;
     }
         indexx+=1;
-        if indexx >= 145 {
+        if indexx >= a.len() {
             indexx = 0;
         }
     }
@@ -101,7 +101,7 @@ fn decode(){
             indexx+=1;
         }
         indexx+=1;
-        if indexx >= 145 {
+        if indexx >= b.len() {
             indexx = 0;
         }
     }
